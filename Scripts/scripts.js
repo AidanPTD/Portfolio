@@ -1,7 +1,7 @@
 /// <reference path="jquery-3.3.1.min.js"/>
 function openNav() {
-    document.getElementById("sideNav").style.width = "150px";
-    document.getElementById("main").style.marginLeft = "171px";
+    document.getElementById("sideNav").style.width = "170px";
+    document.getElementById("main").style.marginLeft = "175px";
 }
 function closeNav() {
     document.getElementById("sideNav").style.width = "0";

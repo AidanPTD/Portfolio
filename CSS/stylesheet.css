@@ -17,12 +17,23 @@ p {
 .w3-row-padding img {
     margin-bottom: 12px
 }
+.openbtn {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    padding: 5px;
+    background-color: #222;
+    color: white;
+}
 /* Set the width of the sidebar to 120px */
 .w3-sidebar {
     height: 100%;
-    width: 0;
+    width: 0px;
     position: fixed;
-    z-index: 1;
+    z-index: 50;
     top: 0;
     left: 0;
     background-color: #222;
@@ -33,9 +44,10 @@ p {
 .w3-sidebar .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
+    left: 5px;
+    top: -5px;
     font-size: 36px;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 .prjbtn {
     -webkit-appearance: button;
@@ -64,10 +76,10 @@ p {
 }
 @font-face {
     font-family: paragraphFont;
-    src: url(Fonts/paragraphFont2.woff)
+    src: url(../Fonts/paragraphFont2.woff)
 }
 
 @font-face {
     font-family: titleFont;
-    src: url(Fonts/titleFont.woff)
+    src: url(../Fonts/titleFont.woff)
 }

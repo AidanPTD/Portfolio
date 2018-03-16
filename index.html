@@ -5,15 +5,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Homepage</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
     <script src="Scripts/scripts.js"></script>
     <script src="Scripts/jquery-3.3.1.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="w3.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/w3.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body class="w3-grey">
-    <span style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776;</span>
+    <span style="font-size:30px; cursor:pointer" class="openbtn" onclick="openNav()">&#9776;</span>
     <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center w3-black" id="sideNav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <!-- Avatar image in top left corner -->
@@ -22,43 +22,32 @@
             <i class="fa fa-home w3-xxlarge"></i>
             <p>HOME</p>
         </a>
-        <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+        <a href="pages/about.html" class="w3-bar-item w3-button w3-padding-large w3-black">
             <i class="fa fa-user w3-xxlarge"></i>
             <p>ABOUT</p>
         </a>
-        <a href="contact.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+        <a href="pages/contact.html" class="w3-bar-item w3-button w3-padding-large w3-black">
             <i class="fa fa-envelope w3-xxlarge"></i>
             <p>CONTACT</p>
         </a>
 
-        <a href="projects/projectindex.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+        <a href="pages/projects/projectindex.html" class="w3-bar-item w3-button w3-padding-large w3-black">
             <i class="fa fa-gamepad w3-xxlarge"></i>
             <p>PROJECTS</p>
             <div id="prjAcc" class="w3-hide-large w3-card-4">
-                <a class="w3-bar-item w3-button" href="projects/freshman.html">FRESHMAN</a>
-                <a class="w3-bar-item w3-button" href="projects/sophomore.html">SOPHOMORE</a>
-                <a class="w3-bar-item w3-button" href="projects/junior.html">JUNIOR</a>
-                <a class="w3-bar-item w3-button" href="projects/senior.html">SENIOR</a>
+                <a class="w3-bar-item w3-button" href="pages/projects/freshman.html">FRESHMAN</a>
+                <a class="w3-bar-item w3-button" href="pages/projects/sophomore.html">SOPHOMORE</a>
+                <a class="w3-bar-item w3-button" href="pages/projects/junior.html">JUNIOR</a>
+                <a class="w3-bar-item w3-button" href="pages/projects/senior.html">SENIOR</a>
             </div>
         </a>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <iframe src="https://www.youtube.com/embed/Og0F97Y-p7c" target="iframe_a" height="150" width="150" style="border:none;"></iframe>-->
-        <iframe src="https://www.youtube.com/embed/oNVfrxkHj1M" target="iframe_a" height="150" width="150" style="border:none;"></iframe>
     </nav>
     <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
         <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
             <a href="index.html" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-            <a href="about.html" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-            <a href="projects/projectindex.html" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
-            <a href="contact.html" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+            <a href="pages/about.html" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+            <a href="pages/projects/projectindex.html" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+            <a href="pages/contact.html" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
         </div>
     </div>
     <div class="w3-padding-large" id="main">
@@ -82,3 +71,5 @@
     </div>
 </body>
 </html>
+<!--<iframe src="https://www.youtube.com/embed/Og0F97Y-p7c" target="iframe_a" height="150" width="150" style="border:none;"></iframe>-->
+        <!--<iframe src="https://www.youtube.com/embed/oNVfrxkHj1M" target="iframe_a" height="150" width="150" style="border:none;"></iframe>-->
